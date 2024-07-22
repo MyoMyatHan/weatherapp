@@ -11,10 +11,10 @@ body{
 
 .card{
     width: 90%;
-    max-width: 470px;
+    max-width: 768px;
     background: linear-gradient(135deg, #00feba, #5b548a);
     color: #fff;
-    margin: 100px auto 0;
+    margin:20px auto 0;
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
@@ -28,6 +28,7 @@ body{
 }
 
 .search input {
+    width: 80%;
     border: 0;
     outline: 0;
     background: #ebfffc;
@@ -38,9 +39,11 @@ body{
     flex: 1;
     margin-right: 16px;
     font-size: 18px;
+    
 }
 
 .search button {
+    width: 20%;
     border: 0;
     outline: 0;
     background: #ebfffc;
@@ -48,10 +51,12 @@ body{
     width: 60px;
     height: 60px;
     cursor: pointer;
+    
 }
 
 .search button img {
     width: 16px;
+    
 }
 
 .weather-icon {
